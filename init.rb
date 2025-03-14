@@ -9,7 +9,7 @@ Redmine::Plugin.register :redmine_home_page_redirector do
   author_url 'http://m2i3.com'
   delete_menu_item :top_menu, :my_page
 
-  requires_redmine :version => '5.0.0'..'5.1.99' 
+  requires_redmine :version => '5.0.0'..'6.0.99' 
 end
 
 require File.dirname(__FILE__) + '/lib/home_page_redirector.rb'
